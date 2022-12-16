@@ -36,4 +36,3 @@ To get the infra running on aws:
 Install AWS cli and configure aws credentials.
 You can also export secret and access key to .env file and map the variables in `provider.tf`
 
-[Brought to you by Ayush Jakhmola]
