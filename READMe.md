@@ -1,8 +1,4 @@
-# ![Three-Tier-Infra as a code]
-
-> ### Example Node (Express + Mongoose) codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) API spec.
-
-<a href="https://thinkster.io/tutorials/node-json-api" target="_blank"><img width="454" src="https://raw.githubusercontent.com/gothinkster/realworld/master/media/learn-btn-hr.png" /></a>
+![Three-Tier-Infra as a code]
 
 This repo is functionality complete — PRs and issues welcome!
 
