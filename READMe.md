@@ -14,7 +14,6 @@ To get the infra running on aws:
 - `packer init`
 - `packer build nodejsAmi.pkr.hcl`
 
-# Code Overview
 
 ## Dependencies
 
@@ -22,18 +21,19 @@ To get the infra running on aws:
 - [packer](https://www.packer.io/) - To install packer.
 - [AWS cli](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-install.html) - to install aws cli only if you are configuring AWS credentials.
 
+
 ## Application Structure
 
 - `terraform/` - This folder contains terraform code to create thee-tier-infra in AWS.
 - `packer/` - This folder contains the code to create image for the backend i.e node js application.
 
-## Error Handling
 
-In `routes/api/index.js`, we define a error-handling middleware for handling Mongoose's `ValidationError`. This middleware will respond with a 422 status code and format the response to have [error messages the clients can understand](https://github.com/gothinkster/realworld/blob/master/API.md#errors-and-status-codes)
+# Code Overview
+
 
 ## Authentication
 
 Install AWS cli and configure aws credentials.
 You can also export secret and access key to .env file and map the variables in `provider.tf`
 
-[![Brought to you by Ayush Jakhmola]
+![Brought to you by Ayush Jakhmola]
