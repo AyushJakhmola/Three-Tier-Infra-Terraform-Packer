@@ -1,4 +1,4 @@
-![Three-Tier-Infra as a code]
+# Three-Tier-Infra as a code
 
 This repo is functionality complete — PRs and issues welcome!
 
