@@ -15,6 +15,8 @@ To get the infra running on aws:
 - `packer build nodejsAmi.pkr.hcl`
 
 
+# Code Overview
+
 ## Dependencies
 
 - [terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) - To install terraform.
@@ -26,9 +28,6 @@ To get the infra running on aws:
 
 - `terraform/` - This folder contains terraform code to create thee-tier-infra in AWS.
 - `packer/` - This folder contains the code to create image for the backend i.e node js application.
-
-
-# Code Overview
 
 
 ## Authentication
