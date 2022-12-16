@@ -4,12 +4,15 @@ This repo is functionality complete — PRs and issues welcome!
 
 # Getting started
 
-To get the Node server running locally:
+To get the infra running on aws:
 
 - Clone this repo
-- `npm install` to install all required dependencies
-- Install MongoDB Community Edition ([instructions](https://docs.mongodb.com/manual/installation/#tutorials)) and run it by executing `mongod`
-- `npm run dev` to start the local server
+- change directory to stg/terraform
+- `terraform init` to install all required module source
+- `terraform plan and apply` to see the resources to be create and to create infra on AWS
+- To build image for nodejs backend
+- `packer init`
+- `packer build nodejsAmi.pkr.hcl`
 
 Alternately, to quickly try out this repo in the cloud, you can [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/realworld)
 
