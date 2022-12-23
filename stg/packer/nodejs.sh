@@ -1,4 +1,9 @@
 #!/bin/bash
+sudo useradd -m app -s /bin/bash
+sudo usermod --password $(openssl passwd -6 'app') app
+echo "app  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/app
+cd /home/app
+
 #NodeJS Dependencies
 sudo apt update
 sudo apt install net-tools -y
