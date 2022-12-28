@@ -51,8 +51,6 @@ module "asg" {
 
   image_id                    = "ami-0c9d1caab790128ec"
   instance_type               = "t3a.micro"
-  ebs_optimized               = true
-  enable_monitoring           = true
   key_name                    = "ayush-squareops"
   create_iam_instance_profile = false
   iam_instance_profile_name   = "CodeDeploynodejsAppEC2"
